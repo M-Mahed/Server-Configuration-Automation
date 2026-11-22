@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><title>{{ inventory_hostname }}</title></head>
+<body>
+  <h1>Configured by Ansible</h1>
+  <p>Host: <strong>{{ inventory_hostname }}</strong></p>
+  <p>OS: {{ ansible_distribution }} {{ ansible_distribution_version }}</p>
+</body>
+</html>

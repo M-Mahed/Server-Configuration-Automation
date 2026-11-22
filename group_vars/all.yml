@@ -1,0 +1,23 @@
+---
+# Packages installed on every server
+common_packages:
+  - git
+  - curl
+  - vim
+  - htop
+  - unzip
+  - ufw
+
+timezone: UTC
+
+# Nginx
+nginx_server_name: "_"
+nginx_http_port: 80
+
+# Application
+app_root: /var/www/app
+app_packages:
+  - python3
+  - python3-pip
+  - python3-venv
+  - build-essential
